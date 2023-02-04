@@ -14,18 +14,12 @@ function App() {
       <Container customClass="min-height">
         <Routes>
           <Route path='/' element={<Home/>}></Route>
-        </Routes>
         {/*<Routes>
           <Route path='/company' element={<Company/>}></Route>
         </Routes>*/}
-        <Routes>
-          <Route path='/newproject' element={<NewProject/>}></Route>
-        </Routes>
-        <Routes>
-          <Route path='/contact' element={<Contact/>}></Route>
-        </Routes>
-        <Routes>
-          <Route path='/projects' element={<Projects/>}></Route>
+          <Route path="/newproject" element={<NewProject/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/projects" element={<Projects/>}></Route>
         </Routes>
       </Container>
       <Footer/>
