@@ -5,9 +5,9 @@ import styles from './NewProject.module.css'
 
 function NewProject() {
 
-    const history = useNavigate()
+    const navigate = useNavigate()
 
-    function createPost(project){
+    function createProject(project){
         // initialize cost and services
         project.cost = 0
         project.services = []
@@ -27,7 +27,7 @@ function NewProject() {
         <div className={styles.newproject_container}>
             <h1>Criar Projeto</h1>
             <p>Crie seu projeto para depois adicionar os serviços</p>
-            <ProjectForm handleSubmit={createPost} btnText="Criar Projeto"/>
+            <ProjectForm handleSubmit={createProject} btnText="Criar Projeto"/>
         </div>
         )
 }
