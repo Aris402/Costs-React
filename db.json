@@ -23,22 +23,22 @@
       "id": 2
     },
     {
-      "name": "Teste msg",
-      "budget": "5",
+      "name": "Teste msg/teste edit",
+      "budget": "567",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "Eita",
-      "budget": "34",
+      "name": "Eita pouxa",
+      "budget": "343",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
