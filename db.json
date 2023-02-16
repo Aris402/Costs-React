@@ -1,50 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "Teste",
-      "budget": "2",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "oi diga",
-      "budget": "2",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Teste msg/teste edit",
-      "budget": "567",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Eita pouxa",
-      "budget": "343",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
